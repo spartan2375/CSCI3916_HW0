@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b37238-3318-4ac6-9c35-08958924e33f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="25b37238-3318-4ac6-9c35-08958924e33f" name="Default Changelist" comment="2022 updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/googlebooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/googlebooks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,8 +99,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.42" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
@@ -116,6 +118,9 @@
   </component>
   <component name="RunManager" selected="Node.js.Google Books">
     <configuration name="Google Books" type="NodeJSConfigurationType" application-parameters="books --phrase &quot;turing&quot;" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="googlebooks.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/utils/googlebooks.js" working-dir="$PROJECT_DIR$/utils">
       <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -145,9 +150,11 @@
       <item itemvalue="Mocha.Test Unit Tests" />
       <item itemvalue="Node.js.Google Books" />
       <item itemvalue="npm.test" />
+      <item itemvalue="Node.js.googlebooks.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.googlebooks.js" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -172,6 +179,7 @@
       <workItem from="1548093242743" duration="143000" />
       <workItem from="1611184869263" duration="359000" />
       <workItem from="1642902502108" duration="306000" />
+      <workItem from="1643426120596" duration="1205000" />
     </task>
     <task id="LOCAL-00001" summary="2022 updates">
       <created>1642902521793</created>
