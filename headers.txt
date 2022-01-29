@@ -1,0 +1,26 @@
+Request
+
+Cache-Control: no-cache - Prevents the server from sending cached responses for repeated requests to avoid "stale responses"
+Postman-Token - A random UUID attached to each header for debugging purposes.
+Host - Specifies the host and port number of the server receiving the request.
+User-Agent - The client's identifying string which the server uses to id the application, os, or other helpful identifiers.
+Accept: * - Indicates the types of acceptable response types, the wildcard just means accept all.
+Accept-Encoding: gzip, deflate, br - Indicates the acceptable encodings/compression types for responses.
+Connection: keep-alive - Indicates that the server should keep the connection open for quicker responses.
+
+Response
+
+Content-Type: app/json - Describes the expected payload type, application/json seems like the most common type.
+Vary: Origin, X-Origin, Referer - Describes how headers should be applied for future requests, cached vs newly generated headers.
+Content-Encoding: gzip - Describes the format the payload is transmitted as.
+Date - The exact time the request was sent.
+Server: ESF - appears to describe the software the server runs, which determines how requests are handled.
+Cache-Control: private - Describes how caching is to be used/handled with the request.
+X-XSS-Protection: 0 - Values for filtering out cross site scripting, disabled here.
+X-Frame-Options: SAMEORIGIN - Determines if a page is rendered as a frame or embed. SAMEORIGIN appears* to only allow displays in a frame on the same origin as the page.
+X-Content-Type-Options: nosniff - Signifies that MIME sniffing is to be avoided and the types in Content-Type should remain the same.
+Alt-Svc: Describes an alternate authoritative location with the same resources available, seems to be for load-balancing**.
+Transfer-Encoding: chunked - Describes the encoding applied to transfer the content, with chunked being the content sent in separate chunks.
+
+*https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options#directives
+**https://datatracker.ietf.org/doc/html/rfc7838#section-2.4
